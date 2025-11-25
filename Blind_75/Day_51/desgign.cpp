@@ -69,7 +69,7 @@ private:
 
                 for(j;j<26;j++)
                 {
-                    if(node->next[ch-'a']) flag |= solve(word.substr(i+1),node->next[j]);
+                    if(node->next[j) flag |= solve(word.substr(i+1),node->next[j]);
                     if(flag)
                     {
                         return true;
