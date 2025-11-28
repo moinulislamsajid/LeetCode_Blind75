@@ -40,6 +40,7 @@ public:
 
     int numIslands(vector<vector<char>>& grid)
     {
+        memset(grid,false,sizeof(grid));
         int n = grid.size();
         int m = grid[0].size();
 
